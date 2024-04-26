@@ -163,3 +163,4 @@ cython_debug/
 info.json
 log.txt
 fire.py
+/legacy
