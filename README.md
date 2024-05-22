@@ -37,8 +37,7 @@ ALIAS="alias entre aspas"
 
 ## Formato info.json
 
-
-{
+{/n
   "POS": 0,
   "MAX": 4,
   "SUBJECTS": [
