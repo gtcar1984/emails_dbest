@@ -29,21 +29,23 @@
 Se não quiser utilizar um ALIAS, utilize o email normalmente. O Alias dá a possibilidade 
 de enviar de uma caixa de emails mas com o nome e endereço de resposta de outra.
 
-SMTP_SERVER="servidor entre aspas"
-SMTP_PORT="porta entre aspas"
-EMAIL_USER="nome de usuário entre aspas"
-EMAIL_PASSWORD="senha entre aspas"
-ALIAS="alias entre aspas"
+SMTP_SERVER="servidor entre aspas"<br />
+SMTP_PORT="porta entre aspas"<br />
+EMAIL_USER="nome de usuário entre aspas"<br />
+EMAIL_PASSWORD="senha entre aspas"<br />
+ALIAS="alias entre aspas"<br />
 
 ## Formato info.json
 
-{/n
-  "POS": 0,
-  "MAX": 4,
-  "SUBJECTS": [
+{<br /> 
+  "POS": 0,<br />
+  "MAX": 4,<br />
+  "SUBJECTS": [<br />
+  
     "Primeiro assunto na  ${template_empresa}? ",
     "Segundo assunto com ${template_nome}",
     "Terceiro assunto",
     "${template_nome} Quarto assunto"
-  ]
-}
+    
+  ]<br />
+}<br />
