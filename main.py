@@ -119,6 +119,7 @@ def send_email(smtp_server, smtp_port,
 def log_message(message):
     '''
     Writes to log file
+    Escreve arquivo de LOG
     '''
     with open(PATH_LOG, 'a', encoding='utf-8') as log_file:
         log_file.write(message + '\n')
@@ -127,6 +128,7 @@ def log_message(message):
 def main():
     '''
     Execute code
+    Executa o código
     '''
     try:
         start_time = time.time()
@@ -203,8 +205,6 @@ def main():
 
 
 if __name__ == "__main__":
-    
-    t = 300
     
     main()
 
