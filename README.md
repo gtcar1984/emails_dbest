@@ -41,11 +41,11 @@ ALIAS="alias entre aspas"<br />
   "POS": 0,<br />
   "MAX": 4,<br />
   "SUBJECTS": [<br />
-  
-    "Primeiro assunto na  ${template_empresa}? ",
-    "Segundo assunto com ${template_nome}",
-    "Terceiro assunto",
-    "${template_nome} Quarto assunto"
-    
+  <br />
+    "Primeiro assunto na  ${template_empresa}? ",<br />
+    "Segundo assunto com ${template_nome}",<br />
+    "Terceiro assunto",<br />
+    "${template_nome} Quarto assunto"<br />
+    <br />
   ]<br />
 }<br />
